@@ -1,0 +1,30 @@
+{
+    "rish": [
+        {
+            "timestamp": "2025-05-29T10:03:43.954547",
+            "result": "defect"
+        },
+        {
+            "timestamp": "2025-05-29T08:32:17.899634",
+            "result": "defect"
+        },
+        {
+            "timestamp": "2025-05-29T08:32:11.511484",
+            "result": "defect"
+        },
+        {
+            "timestamp": "2025-05-29T08:32:02.090730",
+            "result": "normal"
+        }
+    ],
+    "vish": [
+        {
+            "timestamp": "2025-05-29T10:30:29.106257",
+            "result": "normal"
+        },
+        {
+            "timestamp": "2025-05-29T10:30:19.093434",
+            "result": "defect"
+        }
+    ]
+}

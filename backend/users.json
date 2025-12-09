@@ -1,0 +1,80 @@
+[
+    {
+        "username": "superadmin",
+        "email": "admin@anomalydetection.com",
+        "password": "$2b$12$81F/LmGhy9nEDZHn7N5H.OoIDwndO/XpVoNtE98bAcHxihfQMxjsW",
+        "role": "admin",
+        "joinDate": "2025-12-09T00:00:00.000000"
+    },
+    {
+        "username": "soupss",
+        "password": "$2b$12$WkORF0qZ5wrUCU/GvTHQDOUHvYBA6T.Fz1RZhjoZxPgcnYd.9PinW",
+        "role": "user"
+    },
+    {
+        "username": "vish",
+        "password": "$2b$12$md8K2T634zBo1KuGwiwzIuXFnmCIBigat2je.0C4SSwZrqSH3M8S.",
+        "role": "user"
+    },
+    {
+        "username": "rish",
+        "password": "$2b$12$boxrt8eHs8APkZfF0gOduOUdzvlfVMR46f3ajxV1ItvfAHFoEyjRS",
+        "role": "user"
+    },
+    {
+        "username": "mrudu",
+        "email": "mrudu12@gmail.com",
+        "password": "$2b$12$IiigI84GRYRW8RAAaXtgUum598f5iXxK5Qw1emaa75YNYiXbx1bhm",
+        "role": "user",
+        "joinDate": "2025-05-30T14:32:43.861314"
+    },
+    {
+        "username": "soup",
+        "email": "sup@gmail.com",
+        "password": "$2b$12$nXT2j6jGresPtd0KB/mysO.CbZTvKL9azKSnR5XI83fZAMGwFWYei",
+        "role": "user",
+        "joinDate": "2025-05-30T21:43:27.520933"
+    },
+    {
+        "username": "anshu",
+        "email": "anshu@gmail.com",
+        "password": "$2b$12$/E.cKDUfg.5dce3eOfHQKuY8uif5LMyetOQLKw5RNWW5roQnDDolW",
+        "role": "user",
+        "joinDate": "2025-07-20T21:59:44.626055"
+    },
+    {
+        "username": "testuser12",
+        "email": "test12@example.com",
+        "password": "$2b$12$e9fhua9gJ9RyGyPYufVf1elzH3sW5Vl2KCibZFcijXq90n.wTXEnG",
+        "role": "user",
+        "joinDate": "2025-10-06T21:01:23.021108"
+    },
+    {
+        "username": "test",
+        "email": "test12@gmail.com",
+        "password": "$2b$12$6jXllvTmlzuMc7ZnNjponOT.c.sEZN.ZHaXHA28n7zSinM4zFKYuW",
+        "role": "user",
+        "joinDate": "2025-10-06T21:03:24.322267"
+    },
+    {
+        "username": "ets12",
+        "email": "ets12@gmail.com",
+        "password": "$2b$12$JCBaIAYGJmho1sOybcqofeYGqGaXd5Aodc6c82pSZAD84DVuy8WrS",
+        "role": "user",
+        "joinDate": "2025-10-06T21:05:01.637583"
+    },
+    {
+        "username": "sriram",
+        "email": "sriram@gmail.com",
+        "password": "$2b$12$JE47MWDjQoyQW3SwDdl0p.7j35hycXmwY78Y782d/.4B419bvScNu",
+        "role": "user",
+        "joinDate": "2025-12-08T21:22:43.916434"
+    },
+    {
+        "username": "admin12",
+        "email": "admin12@gmail.com",
+        "password": "$2b$12$0rB5nZc6Q9Vy3.EX8CmDPOk0SjlcvP91EpDaD9HurBBcYSspoNt/i",
+        "role": "user",
+        "joinDate": "2025-12-08T22:23:33.532130"
+    }
+]

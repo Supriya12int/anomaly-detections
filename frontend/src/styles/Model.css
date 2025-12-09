@@ -1,0 +1,47 @@
+/* Center the detection card and increase its width */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9fb;
+}
+
+section.bg-white {
+  width: 600px;
+  max-width: 90%;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Headings and text */
+section.bg-white h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+section.bg-white p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* File input and button */
+input[type="file"] {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.btn-primary {
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+}
+
+/* Image preview */
+.img-thumbnail {
+  border-radius: 8px;
+  max-height: 300px;
+}

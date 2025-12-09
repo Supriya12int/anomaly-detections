@@ -1,0 +1,78 @@
+/* SolutionsSection.css */
+
+#solutions {
+  background-color: #f5faff;
+  padding: 4rem 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Section Heading */
+#solutions h2 {
+  font-size: 2.8rem;
+  color: #0b3d91; /* Blue color */
+  text-align: center;
+  margin-bottom: 2rem;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* Paragraph Text */
+#solutions p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Button */
+#solutions .btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  transition: 0.3s ease;
+  border-radius: 8px;
+}
+
+#solutions .btn-outline-primary:hover {
+  background-color: #0b3d91;
+  color: #fff;
+}
+
+/* Image Styling */
+#solutions img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 123, 255, 0.15);
+  transition: transform 0.3s ease;
+}
+
+#solutions img:hover {
+  transform: scale(1.03);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #solutions h2 {
+    font-size: 2.2rem;
+  }
+
+  #solutions p {
+    font-size: 1rem;
+  }
+
+  #solutions {
+    padding: 2rem 1rem;
+  }
+}

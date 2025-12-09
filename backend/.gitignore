@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+.env.local
+
+# Model files (these auto-download)
+swin_transformer_trained.pth
+
+# Cache
+*.cache
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.thumbs.db
+
+# Large files
+*.pth
+*.pt
+*.zip
+
+# History and user files (optional - keep if you want to version them)
+# history.json
+# user_history.json
+# users.json

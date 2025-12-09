@@ -1,0 +1,11 @@
+.main-content {
+  margin-left: 240px;
+  width: calc(100vw - 240px);
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    width: 100vw;
+  }
+}

@@ -1,0 +1,52 @@
+/* src/styles/Help.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f8fb;
+  color: #333;
+}
+
+.help-container {
+  max-width: 900px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0077cc;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #005fa3;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 12px 0;
+}
+
+ul {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.contact-box {
+  background-color: #eaf4ff;
+  padding: 20px;
+  border-left: 4px solid #0077cc;
+  border-radius: 8px;
+  margin-top: 30px;
+}

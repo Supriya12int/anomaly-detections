@@ -1,0 +1,218 @@
+/* === Predictive Maintenance Section === */
+.predictive-container {
+  background: #f0f8ff; /* soft blue */
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.predictive-container .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.predictive-container h1 {
+  font-size: 2.8rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  animation: fadeInDown 0.8s ease forwards;
+}
+
+.predictive-container h2 {
+  font-size: 1.8rem;
+  color: #0056b3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.predictive-container p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.predictive-container .intro,
+.predictive-container .goal {
+  font-size: 1.15rem;
+  font-weight: 500;
+  background: #e6f2ff;
+  border-left: 5px solid #007bff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.predictive-container ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.predictive-container li {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.predictive-container strong {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* === Real-Time Monitoring Section === */
+.py-5bg-light {
+  background: #f0f8ff; /* soft blue */
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.py-5bg-light .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.py-5bg-light h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 2rem;
+  animation: fadeInDown 0.8s ease forwards;
+}
+
+.py-5bg-light p,
+.py-5bg-light ul {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.py-5bg-light strong {
+  color: #0056b3;
+  font-weight: 600;
+}
+
+.py-5bg-light ul {
+  padding-left: 1.5rem;
+}
+
+.py-5bg-light li {
+  margin-bottom: 0.75rem;
+}
+
+/* === AI-Powered Insights Section === */
+.ai-section {
+  background: #e6f2ff;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.ai-section .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.ai-section h3,
+.ai-section h4 {
+  color: #0056b3;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  animation: fadeInDown 0.8s ease forwards;
+}
+
+.ai-section p,
+.ai-section ul {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.ai-section strong {
+  color: #003366;
+  font-weight: 700;
+}
+
+.ai-section ul {
+  padding-left: 1.5rem;
+}
+
+.ai-section li {
+  margin-bottom: 0.75rem;
+}
+
+.ai-section .table-container {
+  overflow-x: auto;
+  margin-top: 1.5rem;
+}
+
+.ai-section table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #003366;
+}
+
+.ai-section th,
+.ai-section td {
+  border: 1px solid #b0c4de;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.ai-section th {
+  background-color: #cfe2ff;
+}
+
+/* === Animations === */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Responsive Styles === */
+@media (max-width: 768px) {
+  .predictive-container h1,
+  .py-5bg-light h2,
+  .ai-section h3,
+  .ai-section h4 {
+    font-size: 1.8rem;
+  }
+
+  .predictive-container p,
+  .ai-section p,
+  .py-5bg-light p,
+  .predictive-container li,
+  .ai-section li,
+  .py-5bg-light li {
+    font-size: 1rem;
+  }
+}

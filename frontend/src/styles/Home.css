@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.hero-section {
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #1e3a8a, #828994, #1e3a8a);
+  background-size: 300% 300%;
+  animation: gradientShift 10s ease infinite;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #070606;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-heading {
+  font-size: 5rem;
+  font-weight: 1000;
+  color: #e9e5e5;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fef8f8;
+  margin: 1.5rem 0;
+  line-height: 1.7;
+}
+
+/* Highlighted Button */
+.custom-btn {
+    text-decoration: none;
+  background-color: #4622d6;
+  color: #f5ebeb;
+ 
+  padding: 0.7rem 1.6rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #0d2364;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(1, 20, 72, 0.4);
+  transform: scale(1.05);
+}
